@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="protos">
+      <UniqueIdentifier>{2fdc1090-9f44-479c-a491-26c33ff28a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protos\tutorial">
+      <UniqueIdentifier>{4965f3af-8188-46f9-96fe-1168bc8342a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protos\google">
+      <UniqueIdentifier>{817f4a27-a5a2-402a-804d-c5ae96fd35de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protos\google\protobuf">
+      <UniqueIdentifier>{49cf2bd5-14eb-494b-b39d-9f0c268b0f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="licenses">
+      <UniqueIdentifier>{80089390-8412-47ed-b104-d7588a14febc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="protos\tutorial\addressbook.proto">
+      <Filter>protos\tutorial</Filter>
+    </None>
+    <None Include="protos\google\protobuf\descriptor.proto">
+      <Filter>protos\google\protobuf</Filter>
+    </None>
+    <None Include="protos\google\protobuf\csharp_options.proto">
+      <Filter>protos\google\protobuf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="licenses\protoc-license.txt">
+      <Filter>licenses</Filter>
+    </Text>
+    <Text Include="licenses\license.txt">
+      <Filter>licenses</Filter>
+    </Text>
+    <Text Include="CHANGES.txt" />
+  </ItemGroup>
+</Project>

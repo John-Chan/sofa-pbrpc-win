@@ -1,0 +1,5 @@
+## gitignore NuGet
+## put this file into the directory whitch include the 'packages' dir.
+
+/packages/
+!packages/repositories.config
